@@ -1,4 +1,4 @@
-WP Criação de Sites – Landing Page 💜🚀
+💜🚀 WP Criação de Sites – Landing Page
 
 🇧🇷 PT-BR
 
@@ -8,8 +8,6 @@ O projeto foi pensado para apresentar o site de forma clara tanto no desktop (co
 Este projeto reforça minha evolução como desenvolvedor front-end, aplicando conceitos de UI/UX, animações suaves e um layout atrativo para conversão de visitantes em clientes.
 
 Todo o desenvolvimento foi feito sem frameworks, utilizando apenas tecnologias web fundamentais e bibliotecas leves para animações.
-
---
 
 🇺🇸 EN
 
@@ -23,10 +21,10 @@ The entire project was built without frameworks, using only core web technologie
 🌐 Deploy
 
 🇧🇷 O projeto está disponível online via GitHub Pages:
-🔗 adicione aqui o link do deploy
+🔗 https://lucasdev4.github.io/WP-Portifolio/
 
 🇺🇸 The project is live on GitHub Pages:
-🔗 add your deploy link here
+🔗 https://lucasdev4.github.io/WP-Portifolio/
 
 🚀 Tecnologias Utilizadas | Technologies Used
 
@@ -53,14 +51,13 @@ Código limpo e organizado
 Foco em conversão e apresentação profissional
 
 📸 Preview
-
 <img width="1920" height="1080" alt="layout" src="https://github.com/user-attachments/assets/610dc69f-677b-481d-8462-9dc90790f728" />
 
 📂 Como Executar o Projeto | How to Run the Project
 # Clone o repositório
-git clone  https://lucasdev4.github.io/WP-Portifolio/
+git clone https://github.com/lucasdev4/WP-Portifolio.git
 
 # Entre na pasta do projeto
-cd nome-do-repositorio
+cd WP-Portifolio
 
 # Abra o arquivo index.html no navegador
