@@ -160,16 +160,46 @@ const closeMenu = document.querySelector(".close-menu");
 const menuLinks = document.querySelectorAll(".menu-mobile a");
 
 menuBtn.addEventListener("click", () => {
-    menuMobile.classList.add("active");
+  menuMobile.classList.add("active");
 });
 
 closeMenu.addEventListener("click", () => {
-    menuMobile.classList.remove("active");
+  menuMobile.classList.remove("active");
 });
 
 menuLinks.forEach(link => {
-    link.addEventListener("click", () => {
-        menuMobile.classList.remove("active");
-    });
+  link.addEventListener("click", () => {
+    menuMobile.classList.remove("active");
+  });
+});
+const informations = document.querySelectorAll(".information");
+const arrows = document.querySelectorAll(".SetaPreta");
+
+let currentIndex = 0;
+
+function showInformation(index) {
+  informations.forEach(info => info.classList.remove("first"));
+  informations[index].classList.add("first");
+}
+
+arrows[0].addEventListener("click", (e) => {
+  e.preventDefault();
+  currentIndex--;
+
+  if (currentIndex < 0) {
+    currentIndex = informations.length - 1;
+  }
+
+  showInformation(currentIndex);
 });
 
+arrows[1].addEventListener("click", (e) => {
+  e.preventDefault();
+  currentIndex++;
+
+  if (currentIndex >= informations.length) {
+    currentIndex = 0;
+  }
+
+  showInformation(currentIndex);
+});
